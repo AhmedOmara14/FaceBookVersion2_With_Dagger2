@@ -23,6 +23,7 @@ public class AuthViewModel extends ViewModel {
     private static final String TAG = "AuthViewModel";
     public MutableLiveData<List<Posts>> listMutableLiveData=new MutableLiveData<>();
     private AuthApi authApi;
+
     @Inject
     public AuthViewModel(AuthApi authApi) {
         this.authApi=authApi;

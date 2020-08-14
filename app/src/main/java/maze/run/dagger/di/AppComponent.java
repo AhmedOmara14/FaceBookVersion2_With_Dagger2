@@ -9,7 +9,7 @@ import dagger.BindsInstance;
 import dagger.Component;
 import dagger.android.AndroidInjectionModule;
 import dagger.android.AndroidInjector;
-import dagger.android.support.AndroidSupportInjectionModule;
+import maze.run.dagger.di.auth.ActivityBuilderModule;
 import maze.run.dagger.ui.BaseApplication;
 
 @Singleton

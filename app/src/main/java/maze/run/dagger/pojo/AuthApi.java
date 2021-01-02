@@ -12,4 +12,5 @@ import retrofit2.http.GET;
 public interface AuthApi {
     @GET("posts")
     public Observable<List<Posts>> getposts();
+
 }
